@@ -1,0 +1,53 @@
+body{
+  background-image: url(https://img.freepik.com/vector-gratis/fondo-blanco-datos-digitales-conexion-tecnologia_32996-546.jpg?w=2000);
+  color: white
+}
+h1, p{
+  max-width: 500px;
+  text-align: center;
+  color: black;
+  font-family: cursive; 
+  border-bottom: 3px solid black ;
+  border-radius: 25px;
+  margin-right: auto;
+  margin-left: auto;
+}
+form{
+  background-color:rgba(0,0,0,0.8);
+  max-width: 700px;
+  margin: auto;
+  border: 25px solid rgba(0,0,0,0.01);
+  border-radius: 25px;
+  font-family: cursive;
+  font-size: 18px;
+  border-right: 50px solid rgba(0,0,0,0.01);
+ 
+
+}
+label{
+  display: block;
+  margin: auto;
+}
+fieldset{
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid black;
+  border-radius: 25px 
+}
+
+.img {
+  background-color:rgba(0,0,0,0.3);
+  margin: 10px 0 ;
+  width:100%;
+  border-radius: 8px;
+  border: 9px solid rgba(0,0,0,0.06);
+  font-family: cursive; 
+  font-size: 14px;
+  color: white; 
+  vertical-align: middle;
+}
+
+color-especial{
+  background-color: white;
+  color: white;
+}

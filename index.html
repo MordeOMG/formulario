@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario de registración</title>
+  </head>
+  <body>
+  <section>
+    <h1 id="title">Fomulario de Registración</h1>
+    <p id="description">Gracias por tomarse el tiempo para ayudarnos a mejorar la plataforma.</p>
+  </section>
+    <form id="survey-form" >
+      <fieldset class="clase">
+        <label id="name-label" >Nombre:* <input id="name" placeholder="Ingrese su nombre" type="text" class="img" required></input><label>
+        <label>Apellido:* <input id="last-name" placeholder="Ingrese su apellido" type="text" class="img" required></input><label>
+        <label id="number-label">Edad:* <input id="number" placeholder="Edad" type="number" min=13 max=120 class="img" required></input><label> 
+        <label id="email-label">Correo Electronico:* <input id="email" placeholder="Ingrese su email" type="email" class="img" required></input><label>
+      </fieldset>
+      <fieldset>
+        <label>¿A que se dedica actualemnte?
+          <select id="dropdown" decendant="survey-form" class="img" >
+            <option value="" class="color-especial">Selecione una opcion</option>
+            <option value="1" class="color-especial">Estuadiante</option>
+            <option value="2" class="color-especial">Trabajador a tiempo completo</option>
+            <option value="3" class="color-especial">Estudiante a tiempo completo</option>
+            <option value="4" class="color-especial">Prefiero no decir</option>
+            <option value="5" class="color-especial">Otro</option>
+          </select>
+        </fieldset>
+      </label>
+        <label><fieldset>¿Recomendarias FreeCodeCamp a un amigo/a?
+        <label><input type="radio" value="definitivamente" name="buttom"/>Definitivamente</label>
+        <label><input type="radio" value="tal-vez" name="buttom"/>Tal vez</label>
+        <label><input type="radio" value="No lo creo" name="buttom"/>No lo creo</label>
+      </fieldset></label>
+      <fieldset>¿Qué te gustaría ver mejorado? (Marque todo lo que corresponda)
+        <label><input type="checkbox" value="Proyectos" /> Proyectos From-End</label>
+        <label><input type="checkbox" value="Proyectos1" /> Proyectos Back-End</label>
+        <label><input type="checkbox" value="Visualización" /> Visualización de datos</label>
+        <label><input type="checkbox" value="Desafios" /> Desafios</label>
+        <label><input type="checkbox" value="Comunidad" /> Comunidad de Codigo Abierto</label>
+        <label><input type="checkbox" value="Salas" /> Salas de ayuda de Gitter</label>
+        <label><input type="checkbox" value="Videos" /> Videos</label>
+        <label><input type="checkbox" value="Encuentros" /> Encuentros en la ciudad</label>
+        <label><input type="checkbox" value="Wiki" /> Wiki</label>
+        <label><input type="checkbox" value="Foro" /> Foro</label>
+        <label><input type="checkbox" value="curso"/> Cursos Adicionales</label>
+      </fieldset>
+      <fieldset>¿Algún comentario o sugerencia?
+        <textarea placeholder="Ingresa tu comentario aquí" rowls="3" cols="30" class="img"></textarea>
+      </fieldset>
+      <fieldset>
+          <input type="submit" id="submit" value="enviar"/>
+      </fieldset>
+    </form>
+  </body>
+</html>
