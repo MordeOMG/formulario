@@ -51,3 +51,7 @@ color-especial{
   background-color: white;
   color: white;
 }
+
+input[type="submit"]{
+  display: block;
+  width: 60%;
