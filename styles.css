@@ -55,3 +55,19 @@ color-especial{
 input[type="submit"]{
   display: block;
   width: 60%;
+  margin: 0 auto;
+  background-color:rgba(0,0,0,0.3);
+  color: white;
+  border: 9px solid rgba(0,0,0,0.01);
+  border-radius: 8px;
+}
+
+input[type="submit"]:hover{
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  background-color:rgba(0,0,0,0.3);
+  color: white;
+  border: 9px solid rgba(255,255,255,1);
+  border-radius: 8px;
+}
