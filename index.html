@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formulario de registración</title>
-  </head>
-  <body>
+<body>
   <section>
     <h1 id="title">Fomulario de Registración</h1>
     <p id="description">Gracias por tomarse el tiempo para ayudarnos a mejorar la plataforma.</p>
@@ -19,14 +11,14 @@
         <label id="email-label">Correo Electronico:* <input id="email" placeholder="Ingrese su email" type="email" class="img" required></input><label>
       </fieldset>
       <fieldset>
-        <label>¿A que se dedica actualemnte?
+        <label>¿A que se dedica actualmente?
           <select id="dropdown" decendant="survey-form" class="img" >
-            <option value="" class="color-especial">Selecione una opcion</option>
-            <option value="1" class="color-especial">Estuadiante</option>
-            <option value="2" class="color-especial">Trabajador a tiempo completo</option>
-            <option value="3" class="color-especial">Estudiante a tiempo completo</option>
-            <option value="4" class="color-especial">Prefiero no decir</option>
-            <option value="5" class="color-especial">Otro</option>
+            <option value="" class="img">Selecione una opcion</option>
+            <option value="1" class="img">Estuadiante</option>
+            <option value="2" class="img">Trabajador a tiempo completo</option>
+            <option value="3" class="img">Estudiante a tiempo completo</option>
+            <option value="4" class="img">Prefiero no decir</option>
+            <option value="5" class="img">Otro</option>
           </select>
         </fieldset>
       </label>
@@ -47,6 +39,9 @@
         <label><input type="checkbox" value="Wiki" /> Wiki</label>
         <label><input type="checkbox" value="Foro" /> Foro</label>
         <label><input type="checkbox" value="curso"/> Cursos Adicionales</label>
+      </fieldset>
+      <fieldset>
+        <label>Ingrese su fotografia para que hagamos de su perfil algo mas especia y personal<input type="file" Name="photo" class="img"></label>
       </fieldset>
       <fieldset>¿Algún comentario o sugerencia?
         <textarea placeholder="Ingresa tu comentario aquí" rowls="3" cols="30" class="img"></textarea>
